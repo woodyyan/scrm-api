@@ -10,7 +10,7 @@ public class SwaggerConfig {
     @Bean
     public GroupedOpenApi userApi() {
         return GroupedOpenApi.builder()
-                .group("box")
+                .group("scrm")
                 // 指定路径
 //                .pathsToMatch("/api/users/**")
                 // 指定特定的 API 文档信息
