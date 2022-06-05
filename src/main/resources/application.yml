@@ -1,0 +1,9 @@
+server:
+  servlet:
+    context-path: /scrm-api
+  port: 8080
+spring:
+  application:
+    name: scrm-api
+jwt:
+  secret: scrm-api
